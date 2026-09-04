@@ -11,10 +11,8 @@
 <!-- 彩虹跑马灯标题(URL 已全量百分号编码,规避 GitHub camo 代理 403) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
 
-```
- ░▒▓█▓▒░ ░▒▓█▓▒░ BOOT SEQUENCE ▒▓█▒░ ▒▓█▒░ ▒▓█▒░
-   >> 加载中... 二次元领域展开完毕 🌸
-```
+<!-- 🖥️ 开机动画横幅(SMIL 逐段点亮 + 进度条 + 流星 + 星空) -->
+<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/boot-sequence.svg" width="100%" alt="Boot Sequence Banner" />
 
 <!-- 技术栈徽章 · 每个图标独立,悬停显示名称,点击跳转官网 -->
 <a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
@@ -311,10 +309,8 @@ print("こんにちは, world" [::-1][:6])
 
 <div align="center">
 
-```
- ░▒▓█▓▒░ MISSION COMPLETE ▒▓█▒░
-　　✦ ･ﾟ✧　感謝观看,记得点个 Star 再走呀　✧ﾟ･ ✦
-```
+<!-- 🎖️ 通关动画横幅(SMIL 逐段点亮 + 闪烁光标 + 流星 + 星空) -->
+<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/mission-complete.svg" width="100%" alt="Mission Complete Banner" />
 
 <a href="https://github.com/CLRenYa?tab=repositories">
   <img src="https://img.shields.io/badge/%E2%86%92_Visit_My_Repos-ff69b4?style=for-the-badge&logo=github" alt="Visit Repos" />
