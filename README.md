@@ -5,14 +5,13 @@
 
 <div align="center">
 
-<!-- 🌌✨ 星空 + 霓虹招牌合成横幅(GIF 内烘焙,任何主题/渲染器都 100% 显示:呼吸辉光 + 游走光点 + 流星 + 樱花瓣) -->
-<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/header-composed.gif" width="100%" alt="Starry Neon Banner" />
+<!-- 🌌✨ 星空 + 霓虹招牌合成横幅(纯 SMIL SVG 版:呼吸辉光 + 游走光点 + 流星 + 樱花瓣 + 星群闪烁,矢量无损仅 10KB) -->
+<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/header-composed.svg" width="100%" alt="Starry Neon Banner" />
+<!-- 🖥️ 开机动画横幅(SMIL 逐段点亮 + 进度条 + 流星 + 星空) -->
+<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/boot-sequence.svg" width="100%" alt="Boot Sequence Banner" />
 
 <!-- 彩虹跑马灯标题(URL 已全量百分号编码,规避 GitHub camo 代理 403) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
-
-<!-- 🖥️ 开机动画横幅(SMIL 逐段点亮 + 进度条 + 流星 + 星空) -->
-<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/boot-sequence.svg" width="100%" alt="Boot Sequence Banner" />
 
 <!-- 技术栈徽章 · 每个图标独立,悬停显示名称,点击跳转官网 -->
 <a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
