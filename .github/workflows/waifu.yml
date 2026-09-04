@@ -1,0 +1,29 @@
+name: Daily waifu 🌸
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # 每天 09:00 北京时间自动抽一张
+  workflow_dispatch: # 支持手动重抽
+
+jobs:
+  waifu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch random SFW anime image
+        run: |
+          mkdir -p out
+          for i in 1 2 3 4 5; do
+            ID=$(curl -sf "https://nekos.moe/api/v1/random/image?count=1&nsfw=false" | jq -r '.images[0].id')
+            if [ -n "$ID" ] && [ "$ID" != "null" ]; then
+              curl -sfL -o out/waifu.jpg "https://nekos.moe/image/$ID" && file out/waifu.jpg | grep -qi 'image' && break
+            fi
+            sleep 5
+          done
+          test -s out/waifu.jpg || { echo "failed to fetch waifu image"; exit 1; }
+
+      - name: Publish to assets branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: assets
+          publish_dir: ./out

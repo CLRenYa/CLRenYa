@@ -5,6 +5,9 @@
 
 <div align="center">
 
+<!-- 🌌 星空粒子动态横幅(本地 GIF:闪烁星群 + 双流星 + 樱花瓣飘移,无缝循环) -->
+<img src="assets/starry-sky.gif" width="100%" alt="Starry Sky Banner" />
+
 <!-- 彩虹跑马灯标题(URL 已全量百分号编码,规避 GitHub camo 代理 403) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
 
@@ -13,9 +16,21 @@
    >> 加载中... 二次元领域展开完毕 🌸
 ```
 
-<a href="https://git.io/typing-svg"><img src="https://skillicons.dev/icons?i=py,ts,js,html,css,react,vue,nodejs,git,github,docker,linux" /></a>
+<!-- 技术栈徽章 · 每个图标独立,悬停显示名称,点击跳转官网 -->
+<a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
+<a href="https://www.typescriptlang.org" target="_blank"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
+<a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" /></a>
+<a href="https://html.spec.whatwg.org" target="_blank"><img src="https://skillicons.dev/icons?i=html" alt="HTML" /></a>
+<a href="https://www.csswg.org" target="_blank"><img src="https://skillicons.dev/icons?i=css" alt="CSS" /></a>
+<a href="https://react.dev" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
+<a href="https://vuejs.org" target="_blank"><img src="https://skillicons.dev/icons?i=vue" alt="Vue" /></a>
+<a href="https://nodejs.org" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" /></a>
+<a href="https://git-scm.com" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
+<a href="https://github.com" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+<a href="https://www.docker.com" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
+<a href="https://www.linux.org" target="_blank"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" /></a>
 
-<small>✦ 悬停查看徽章 · 点击有惊喜 ✦</small>
+<small>✦ 悬停查看名称 · 点击直达官网 ✦</small>
 
 </div>
 
@@ -58,16 +73,6 @@ $ whoami
   <img src="https://img.shields.io/badge/Rank-A+_%E3%82%AA%E3%82%BF%E3%82%AF-ff69b4?style=for-the-badge&logo=observable&labelColor=1a1b26" alt="Rank" />
 </a>
 
-<!--
-　✦ 以下动态卡片因公共演示服务限流暂时下线,恢复后可取消注释:
-　(github-readme-stats / activity-graph / trophy 的 vercel.app 公共实例已 402/503)
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=CLRenYa&show_icons=true&theme=synthwave&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CLRenYa&layout=compact&theme=synthwave&hide_border=true&langs_count=8" alt="Top Langs" />
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=CLRenYa&theme=synthwave-84&hide_border=true&bg_color=1a1b26" alt="Activity Graph" />
-<img src="https://github-profile-trophy.vercel.app/?username=CLRenYa&theme=dracula&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
--->
-
 <!-- 🐍 贪吃蛇贡献图 · 由 GitHub Actions (Platane/snk) 每天自动生成,亮/暗色自适应 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CLRenYa/CLRenYa/blob/gh-pages/github-snake-dark.svg?raw=true" />
@@ -104,6 +109,193 @@ $ whoami
 **🌙 出没时段**
 
 ![night](https://img.shields.io/badge/22:10_AM-still_coding-indigo?style=for-the-badge&logo=observable)
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+### 🕹️ 異世界転生テスト ｜ 互动小游戏区
+
+<div align="center">
+
+*路过的旅人,请留步——这里封存着两座微型异世界,点开即是命运 🎲*
+
+#### 🎰 今日一抽 · 命运扭蛋机
+
+<details>
+<summary>✨ 点击抽取你的今日 SSR(剧透禁止,先抽再看)</summary>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+🎁 **奖励 A**
+
+**「无限咖啡券」**
+
+*R 稀有度*
+
+效果:通宵 debug 不掉 SAN 值
+
+</td>
+<td align="center" width="33%">
+
+🎁 **奖励 B**
+
+**「发量再生药水」**
+
+**SSR!!!**
+
+效果:编译 0 warning,头发 +9999
+
+</td>
+<td align="center" width="33%">
+
+🎁 **奖励 C**
+
+**「史莱姆小弟 ×1」**
+
+*N 稀有度*
+
+效果:替你 review 昨天的代码
+
+</td>
+</tr>
+</table>
+
+> 系统提示:抽到 SSR 的访客请在 Issues 区大声炫耀 📢
+
+</details>
+
+#### ⚔️ 文字冒险 ·《深夜仓库的地下城》
+
+<details>
+<summary>🚪 推开你面前这扇门(多周目剧情,慎入)</summary>
+
+> 2026 年的某个深夜,你路过 CLRenYa 的 GitHub 仓库,
+> 发现 README 底部有一扇发着微光的门……
+
+<details>
+<summary>👉 选项一:推门而入</summary>
+
+> 门后是一间赛博机房,屏幕上滚动着 63 次贡献记录。
+> 一只粉色贪吃蛇从屏幕里爬出来,对你吐了吐信子。
+>
+> 「勇闯者,回答我一个问题方可离开——」
+
+<details>
+<summary>🐍 蛇の谜题:这段代码的输出是?</summary>
+
+```python
+print("こんにちは, world" [::-1][:6])
+```
+
+<details>
+<summary>🅰️ 答案是「逆さ文字の魔法」</summary>
+
+> ✅ 正确!蛇满意地让开了路。
+> 你获得了成就徽章:
+
+![achievement](https://img.shields.io/badge/🏆_成就达成-蛇语者-ff69b4?style=for-the-badge&labelColor=1a1b26)
+
+> *通关彩蛋:把这段故事讲给你的下一位访客。*
+
+</details>
+
+<details>
+<summary>🅱️ 答案是「IndexError」</summary>
+
+> ❌ 错误。Python 切片永不越界——
+> 蛇大笑三声,把你变成了 README 里的一个标点符号。
+>
+> **( 已存档 · 点击左上角浏览器后退读档,或收起本层重新选择 )**
+
+</details>
+
+</details>
+
+</details>
+
+<details>
+<summary>👉 选项二:转身就跑</summary>
+
+> 你选择了理智。
+> 但跑出三步后,地上出现一行发光的字:
+>
+> ```
+> git commit -m "逃跑失败,已自动暂存"
+> ```
+>
+> 你的脚被 `git add .` 住了。收起本层,回到选项一吧 😇
+
+</details>
+
+</details>
+
+<small>✦ 本区域由魔法驱动,无需 JavaScript 亦可畅玩 ✦</small>
+
+</div>
+
+---
+
+### 🌸 今日のねこちゃん ｜ 今日猫娘
+
+<div align="center">
+
+*由 GitHub Actions 每天 09:00(北京时间)从 [nekos.moe](https://nekos.moe) 自动抽取一张 SFW 二次元插画*
+*—— 每天醒来,你的电子猫娘都会换一张新脸 🐾*
+
+<details>
+<summary>🐱 摸摸她的头(点击展开)</summary>
+
+> 她眯起眼睛,发出了满足的呼噜声……
+>
+> ![petted](https://img.shields.io/badge/🐾_SAN值+10-治愈成功-9ece6a?style=for-the-badge&labelColor=1a1b26)
+>
+> *（收起本层,她就会忘记刚才的事,你可以无限摸下去）*
+
+</details>
+
+<a href="https://nekos.moe" title="今日份的猫娘由 nekos.moe 赞助">
+  <img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/waifu.jpg" width="360" alt="Today's Waifu" />
+</a>
+
+<small>✦ 图片每日自动更新 · 卡住了就点她一下重抽 ✦</small>
+
+</div>
+
+---
+
+### 📡 电波传送 ｜ Teleport Portal
+
+<div align="center">
+
+> *「天空之所以美丽,是因为它连接着两个人的心。」* —— 《秒速5厘米》
+>
+> *「今天也是、代码与樱花一同飘落的一天。」* 🌸
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+**📱 扫码直达我的 GitHub**
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&margin=8&color=1a1b26&bgcolor=ffffff&data=https%3A%2F%2Fgithub.com%2FCLRenYa" alt="GitHub QR Code" />
+
+</td>
+<td align="center" width="50%">
+
+**🎧 今日 BGM**
+
+![now-playing](https://img.shields.io/badge/Now%20Playing-残酷な天使のテーゼ-ff69b4?style=for-the-badge&logo=applemusic&labelColor=1a1b26)
+
+![listening](https://img.shields.io/badge/♪_on_loop-∞-7aa2f7?style=for-the-badge&logo=spotify&labelColor=1a1b26)
+
+<small>—— 循环到代码自动进入同步率 400% 状态</small>
 
 </td>
 </tr>
