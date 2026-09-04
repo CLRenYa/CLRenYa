@@ -42,17 +42,38 @@ $ whoami
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=CLRenYa&show_icons=true&theme=synthwave&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats" />
+<!-- 访问计数 · 访客雷达 -->
+![moe-counter](https://komarev.com/ghpvc/?username=CLRenYa&label=👀%E8%AE%BF%E5%AE%A2&style=for-the-badge&color=ff69b4)
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CLRenYa&layout=compact&theme=synthwave&hide_border=true&langs_count=8" alt="Top Langs" />
-
-<!-- 贪吃蛇贡献热力图 -->
 <a href="https://github.com/CLRenYa">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=CLRenYa&theme=synthwave-84&hide_border=true&bg_color=1a1b26" alt="Activity Graph" />
+  <img src="https://img.shields.io/github/stars/CLRenYa?style=for-the-badge&logo=github&label=Stars%20Earned&color=ff69b4&labelColor=1a1b26" alt="Stars" />
+</a>
+<a href="https://github.com/CLRenYa?tab=repositories">
+  <img src="https://img.shields.io/github/issues-closed/CLRenYa?style=for-the-badge&logo=github&label=Issues%20Closed&color=7aa2f7&labelColor=1a1b26" alt="Issues Closed" />
+</a>
+<a href="https://github.com/CLRenYa?tab=followers">
+  <img src="https://img.shields.io/github/followers/CLRenYa?style=for-the-badge&logo=github&label=Followers&color=9ece6a&labelColor=1a1b26" alt="Followers" />
+</a>
+<a href="https://github.com/CLRenYa/CLRenYa">
+  <img src="https://img.shields.io/badge/Rank-A+_%E3%82%AA%E3%82%BF%E3%82%AF-ff69b4?style=for-the-badge&logo=observable&labelColor=1a1b26" alt="Rank" />
 </a>
 
-<!-- 樱花 / 粒子背景 Trophies -->
+<!--
+　✦ 以下动态卡片因公共演示服务限流暂时下线,恢复后可取消注释:
+　(github-readme-stats / activity-graph / trophy 的 vercel.app 公共实例已 402/503)
+
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=CLRenYa&show_icons=true&theme=synthwave&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CLRenYa&layout=compact&theme=synthwave&hide_border=true&langs_count=8" alt="Top Langs" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=CLRenYa&theme=synthwave-84&hide_border=true&bg_color=1a1b26" alt="Activity Graph" />
 <img src="https://github-profile-trophy.vercel.app/?username=CLRenYa&theme=dracula&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
+-->
+
+<!-- 🐍 贪吃蛇贡献图 · 由 GitHub Actions (Platane/snk) 每天自动生成,亮/暗色自适应 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CLRenYa/CLRenYa/blob/gh-pages/github-snake-dark.svg?raw=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/CLRenYa/CLRenYa/blob/gh-pages/github-snake.svg?raw=true" />
+  <img alt="github contribution grid snake animation" src="https://github.com/CLRenYa/CLRenYa/blob/gh-pages/github-snake.svg?raw=true" />
+</picture>
 
 </div>
 
@@ -87,8 +108,6 @@ $ whoami
 </td>
 </tr>
 </table>
-
-![moe-counter](https://komarev.com/ghpvc/?username=CLRenYa&label=👀%E8%AE%BF%E5%AE%A2&style=for-the-badge&color=ff69b4)
 
 </div>
 
