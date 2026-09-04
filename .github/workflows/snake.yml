@@ -31,10 +31,11 @@ jobs:
           outputs: |
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff69b4
 
-      # 推送到 gh-pages 分支
-      - name: Deploy to gh-pages
+      # 推送到 assets 分支(与猫娘图共用素材分支)
+      - name: Deploy to assets branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages
+          publish_branch: assets
+          keep_files: true

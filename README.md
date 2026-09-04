@@ -73,11 +73,11 @@ $ whoami
   <img src="https://img.shields.io/badge/Rank-A+_%E3%82%AA%E3%82%BF%E3%82%AF-ff69b4?style=for-the-badge&logo=observable&labelColor=1a1b26" alt="Rank" />
 </a>
 
-<!-- 🐍 贪吃蛇贡献图 · 由 GitHub Actions (Platane/snk) 每天自动生成,亮/暗色自适应 -->
+<!-- 🐍 贪吃蛇贡献图 · 由 GitHub Actions (Platane/snk) 每天自动生成到 assets 分支,亮/暗色自适应 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CLRenYa/CLRenYa/blob/gh-pages/github-snake-dark.svg?raw=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/CLRenYa/CLRenYa/blob/gh-pages/github-snake.svg?raw=true" />
-  <img alt="github contribution grid snake animation" src="https://github.com/CLRenYa/CLRenYa/blob/gh-pages/github-snake.svg?raw=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/github-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/github-snake.svg" />
 </picture>
 
 </div>
