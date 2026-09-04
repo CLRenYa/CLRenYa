@@ -5,12 +5,8 @@
 
 <div align="center">
 
-<!-- 🌌 星空横幅 + 霓虹艺术字叠放:GIF 在下、SVG 招牌以负 margin 浮于星空之上;<picture> 按 GitHub 亮/暗主题切换招牌 -->
-<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/starry-sky.gif" width="100%" alt="Starry Sky Banner" />
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/neon-overlay-dark.svg">
-  <img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/neon-overlay-light.svg" width="80%" alt="Neon CLRenYa Sign" style="margin-top:-170px" />
-</picture>
+<!-- 🌌✨ 星空 + 霓虹招牌合成横幅(GIF 内烘焙,任何主题/渲染器都 100% 显示:呼吸辉光 + 游走光点 + 流星 + 樱花瓣) -->
+<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/header-composed.gif" width="100%" alt="Starry Neon Banner" />
 
 <!-- 彩虹跑马灯标题(URL 已全量百分号编码,规避 GitHub camo 代理 403) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
