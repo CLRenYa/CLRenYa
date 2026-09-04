@@ -5,8 +5,8 @@
 
 <div align="center">
 
-<!-- 🌌 星空粒子动态横幅(本地 GIF:闪烁星群 + 双流星 + 樱花瓣飘移,无缝循环) -->
-<img src="assets/starry-sky.gif" width="100%" alt="Starry Sky Banner" />
+<!-- 🌌 星空粒子动态横幅(存于 assets 分支:闪烁星群 + 双流星 + 樱花瓣飘移,无缝循环) -->
+<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/starry-sky.gif" width="100%" alt="Starry Sky Banner" />
 
 <!-- 彩虹跑马灯标题(URL 已全量百分号编码,规避 GitHub camo 代理 403) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
