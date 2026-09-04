@@ -54,8 +54,8 @@ $ whoami
 
 <div align="center">
 
-<!-- 访问计数 · 访客雷达 -->
-![moe-counter](https://komarev.com/ghpvc/?username=CLRenYa&label=%F0%9F%91%80%20Visitors&style=for-the-badge&color=ff69b4)
+<!-- 访问计数 · booru 风主题(count.getloli.com) -->
+![visitor-count](https://count.getloli.com/get/@CLRenYa?theme=booru-lewd)
 
 <a href="https://github.com/CLRenYa">
   <img src="https://img.shields.io/github/stars/CLRenYa.svg?style=for-the-badge&logo=github&label=Stars%20Earned&color=ff69b4&labelColor=1a1b26" alt="Stars" />
