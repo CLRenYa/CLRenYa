@@ -291,9 +291,13 @@ print("こんにちは, world" [::-1][:6])
 
 **🎧 今日 BGM**
 
-![now-playing](https://img.shields.io/badge/Now%20Playing-残酷な天使のテーゼ-ff69b4?style=for-the-badge&logo=applemusic&labelColor=1a1b26)
+<a href="https://www.youtube.com/results?search_query=%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC" title="点击去听这首歌">
+  <img src="https://img.shields.io/badge/Now%20Playing-%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC-ff69b4?style=for-the-badge&logo=youtube&labelColor=1a1b26" alt="Now Playing" />
+</a>
 
-![listening](https://img.shields.io/badge/♪_on_loop-∞-7aa2f7?style=for-the-badge&logo=spotify&labelColor=1a1b26)
+<a href="https://open.spotify.com/search/%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC" title="点击去 Spotify 搜索">
+  <img src="https://img.shields.io/badge/%E2%99%AA_on_loop-%E2%88%9E-7aa2f7?style=for-the-badge&logo=spotify&labelColor=1a1b26" alt="On Loop" />
+</a>
 
 <small>—— 循环到代码自动进入同步率 400% 状态</small>
 
