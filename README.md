@@ -5,8 +5,8 @@
 
 <div align="center">
 
-<!-- 彩虹跑马灯标题 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=こんにちは!+%E3%81%93%E3%82%8C%E3%81%AF+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
+<!-- 彩虹跑马灯标题(URL 已全量百分号编码,规避 GitHub camo 代理 403) -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
 
 ```
  ░▒▓█▓▒░ ░▒▓█▓▒░ BOOT SEQUENCE ▒▓█▒░ ▒▓█▒░ ▒▓█▒░
@@ -43,16 +43,16 @@ $ whoami
 <div align="center">
 
 <!-- 访问计数 · 访客雷达 -->
-![moe-counter](https://komarev.com/ghpvc/?username=CLRenYa&label=👀%E8%AE%BF%E5%AE%A2&style=for-the-badge&color=ff69b4)
+![moe-counter](https://komarev.com/ghpvc/?username=CLRenYa&label=%F0%9F%91%80%20Visitors&style=for-the-badge&color=ff69b4)
 
 <a href="https://github.com/CLRenYa">
-  <img src="https://img.shields.io/github/stars/CLRenYa?style=for-the-badge&logo=github&label=Stars%20Earned&color=ff69b4&labelColor=1a1b26" alt="Stars" />
+  <img src="https://img.shields.io/github/stars/CLRenYa.svg?style=for-the-badge&logo=github&label=Stars%20Earned&color=ff69b4&labelColor=1a1b26" alt="Stars" />
 </a>
 <a href="https://github.com/CLRenYa?tab=repositories">
-  <img src="https://img.shields.io/github/issues-closed/CLRenYa?style=for-the-badge&logo=github&label=Issues%20Closed&color=7aa2f7&labelColor=1a1b26" alt="Issues Closed" />
+  <img src="https://img.shields.io/badge/Repositories-3-7aa2f7?style=for-the-badge&logo=github&labelColor=1a1b26" alt="Repositories" />
 </a>
 <a href="https://github.com/CLRenYa?tab=followers">
-  <img src="https://img.shields.io/github/followers/CLRenYa?style=for-the-badge&logo=github&label=Followers&color=9ece6a&labelColor=1a1b26" alt="Followers" />
+  <img src="https://img.shields.io/github/followers/CLRenYa.svg?style=for-the-badge&logo=github&label=Followers&color=9ece6a&labelColor=1a1b26" alt="Followers" />
 </a>
 <a href="https://github.com/CLRenYa/CLRenYa">
   <img src="https://img.shields.io/badge/Rank-A+_%E3%82%AA%E3%82%BF%E3%82%AF-ff69b4?style=for-the-badge&logo=observable&labelColor=1a1b26" alt="Rank" />
@@ -96,14 +96,14 @@ $ whoami
 
 **🍙 能量来源**
 
-![coffee](https://img.shields.io/badge/coffee-∞-brown?style=for-the-badge&logo=coffee)
+![coffee](https://img.shields.io/badge/coffee-%E2%88%9E-brown?style=for-the-badge&logo=coffee)
 
 </td>
 <td align="center">
 
 **🌙 出没时段**
 
-![night](https://img.shields.io/badge/02:00_AM-still_coding-indigo?style=for-the-badge&logo=observable)
+![night](https://img.shields.io/badge/22:10_AM-still_coding-indigo?style=for-the-badge&logo=observable)
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ $ whoami
 ```
 
 <a href="https://github.com/CLRenYa?tab=repositories">
-  <img src="https://img.shields.io/badge/→_Visit_My_Repos-ff69b4?style=for-the-badge&logo=github" alt="Visit Repos" />
+  <img src="https://img.shields.io/badge/%E2%86%92_Visit_My_Repos-ff69b4?style=for-the-badge&logo=github" alt="Visit Repos" />
 </a>
 
 </div>
