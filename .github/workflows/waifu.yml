@@ -8,6 +8,8 @@ on:
 jobs:
   waifu:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Fetch random SFW anime image
         run: |
