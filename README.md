@@ -6,14 +6,14 @@
 <div align="center">
 
 <!-- 🌌✨ 星空 + 霓虹招牌合成横幅(纯 SMIL SVG 版:呼吸辉光 + 游走光点 + 流星 + 樱花瓣 + 星群闪烁,矢量无损仅 10KB) -->
-<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/header-composed.svg" width="100%" alt="Starry Neon Banner" />
-<!-- 🖥️ 开机动画横幅(SMIL 逐段点亮 + 进度条 + 流星 + 星空) -->
-<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/boot-sequence.svg" width="100%" alt="Boot Sequence Banner" />
+
+<img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/header-composed.svg" width="100%" alt="Starry Neon Banner" /><img src="https://raw.githubusercontent.com/CLRenYa/CLRenYa/assets/boot-sequence.svg" width="100%" alt="Boot Sequence Banner" />
 
 <!-- 彩虹跑马灯标题(URL 已全量百分号编码,规避 GitHub camo 代理 403) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=1000&color=FF71A2&center=true&vCenter=true&multiline=true&random=false&width=680&height=100&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+CLRenYa+%E3%81%A7%E3%81%99;Code+%C2%B7+Anime+%C2%B7+Coffee+%F0%9F%8D%89" alt="Typing SVG" />
 
 <!-- 技术栈徽章 · 每个图标独立,悬停显示名称,点击跳转官网 -->
+
 <a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
 <a href="https://www.typescriptlang.org" target="_blank"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
 <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" /></a>
@@ -55,13 +55,14 @@ $ whoami
 <div align="center">
 
 <!-- 访问计数 · booru 风主题(count.getloli.com) -->
+
 ![visitor-count](https://count.getloli.com/get/@CLRenYa?theme=booru-lewd)
 
 <a href="https://github.com/CLRenYa">
   <img src="https://img.shields.io/github/stars/CLRenYa.svg?style=for-the-badge&logo=github&label=Stars%20Earned&color=ff69b4&labelColor=1a1b26" alt="Stars" />
 </a>
 <a href="https://github.com/CLRenYa?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-3-7aa2f7?style=for-the-badge&logo=github&labelColor=1a1b26" alt="Repositories" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FCLRenYa&query=%24.public_repos&label=Repositories&style=for-the-badge&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Repositories" />
 </a>
 <a href="https://github.com/CLRenYa?tab=followers">
   <img src="https://img.shields.io/github/followers/CLRenYa.svg?style=for-the-badge&logo=github&label=Followers&color=9ece6a&labelColor=1a1b26" alt="Followers" />
@@ -105,7 +106,7 @@ $ whoami
 
 **🌙 出没时段**
 
-![night](https://img.shields.io/badge/22:10_AM-still_coding-indigo?style=for-the-badge&logo=observable)
+![night](https://img.shields.io/badge/10:10_PM-still_coding-indigo?style=for-the-badge&logo=observable)
 
 </td>
 </tr>
@@ -119,7 +120,7 @@ $ whoami
 
 <div align="center">
 
-*路过的旅人,请留步——这里封存着两座微型异世界,点开即是命运 🎲*
+_路过的旅人,请留步——这里封存着两座微型异世界,点开即是命运 🎲_
 
 #### 🎰 今日一抽 · 命运扭蛋机
 
@@ -134,7 +135,7 @@ $ whoami
 
 **「无限咖啡券」**
 
-*R 稀有度*
+_R 稀有度_
 
 效果:通宵 debug 不掉 SAN 值
 
@@ -156,7 +157,7 @@ $ whoami
 
 **「史莱姆小弟 ×1」**
 
-*N 稀有度*
+_N 稀有度_
 
 效果:替你 review 昨天的代码
 
@@ -199,7 +200,7 @@ print("こんにちは, world" [::-1][:6])
 
 ![achievement](https://img.shields.io/badge/🏆_成就达成-蛇语者-ff69b4?style=for-the-badge&labelColor=1a1b26)
 
-> *通关彩蛋:把这段故事讲给你的下一位访客。*
+> _通关彩蛋:把这段故事讲给你的下一位访客。_
 
 </details>
 
@@ -243,8 +244,8 @@ print("こんにちは, world" [::-1][:6])
 
 <div align="center">
 
-*由 GitHub Actions 每天 09:00(北京时间)从 [nekos.moe](https://nekos.moe) 自动抽取一张 SFW 二次元插画*
-*—— 每天醒来,你的电子猫娘都会换一张新脸 🐾*
+_由 GitHub Actions 每天 09:00(北京时间)从 [nekos.moe](https://nekos.moe) 自动抽取一张 SFW 二次元插画_
+_—— 每天醒来,你的电子猫娘都会换一张新脸 🐾_
 
 <details>
 <summary>🐱 摸摸她的头(点击展开)</summary>
@@ -253,7 +254,7 @@ print("こんにちは, world" [::-1][:6])
 >
 > ![petted](https://img.shields.io/badge/🐾_SAN值+10-治愈成功-9ece6a?style=for-the-badge&labelColor=1a1b26)
 >
-> *（收起本层,她就会忘记刚才的事,你可以无限摸下去）*
+> _（收起本层,她就会忘记刚才的事,你可以无限摸下去）_
 
 </details>
 
@@ -271,9 +272,9 @@ print("こんにちは, world" [::-1][:6])
 
 <div align="center">
 
-> *「天空之所以美丽,是因为它连接着两个人的心。」* —— 《秒速5厘米》
+> _「天空之所以美丽,是因为它连接着两个人的心。」_ —— 《秒速5厘米》
 >
-> *「今天也是、代码与樱花一同飘落的一天。」* 🌸
+> _「今天也是、代码与樱花一同飘落的一天。」_ 🌸
 
 <table>
 <tr>
