@@ -1,9 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="120" viewBox="0 0 720 120">
   <defs>
+    <!-- 深空底色 (与顶部横幅自然呼应) -->
     <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1a1b2e"/>
-      <stop offset="1" stop-color="#101226"/>
+      <stop offset="0%" stop-color="#181a33"/>
+      <stop offset="50%" stop-color="#121326"/>
+      <stop offset="100%" stop-color="#0a0b18"/>
     </linearGradient>
+
+    <!-- 星云光晕 · 浅紫罗兰 -->
+    <radialGradient id="nebulaViolet" cx="30%" cy="40%" r="48%">
+      <stop offset="0%" stop-color="#bb9af7" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#7aa2f7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- 星云光晕 · 樱粉 -->
+    <radialGradient id="nebulaPink2" cx="72%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#ff69b4" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#f7768e" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ff69b4" stop-opacity="0"/>
+    </radialGradient>
+
     <linearGradient id="neon2" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#9ece6a">
         <animate attributeName="stop-color" values="#9ece6a;#ff69b4;#9ece6a" dur="5s" repeatCount="indefinite"/>
@@ -12,16 +29,25 @@
         <animate attributeName="stop-color" values="#7aa2f7;#bb9af7;#7aa2f7" dur="5s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <linearGradient id="tailB2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="-95" y2="-33">
+
+    <linearGradient id="tailB2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="-85" y2="-40">
       <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
-      <stop offset="0.25" stop-color="#a9c6ff" stop-opacity="0.7"/>
-      <stop offset="1" stop-color="#a9c6ff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#a9c6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7aa2f7" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="tailP2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="88" y2="-31">
+
+    <linearGradient id="tailP2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="80" y2="-38">
       <stop offset="0" stop-color="#ffe1ee" stop-opacity="1"/>
-      <stop offset="0.25" stop-color="#ff9ecb" stop-opacity="0.7"/>
-      <stop offset="1" stop-color="#ff9ecb" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#ff9ecb" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff69b4" stop-opacity="0"/>
     </linearGradient>
+
+    <linearGradient id="tailGold2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="-85" y2="-40">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#c0caf5" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0"/>
+    </linearGradient>
+
     <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b">
         <animate attributeName="stdDeviation" values="2;5;2" dur="2.8s" repeatCount="indefinite"/>
@@ -31,6 +57,7 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
     <filter id="mglow2" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="1.6" result="mb"/>
       <feMerge>
@@ -38,44 +65,421 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- 真实樱花花瓣定义 -->
+    <g id="sakuraPetal2">
+      <path d="M 0,0 C -3.5,-5 -6,-10 -1.5,-13 C -0.5,-12.2 0.5,-12.2 1.5,-13 C 6,-10 3.5,-5 0,0 Z"/>
+    </g>
+
+    <!-- 璀璨四角芒星定义 -->
+    <g id="sparkleStar2">
+      <path d="M 0,-9 Q 0.7,-1.6 9,0 Q 0.7,1.6 0,9 Q -0.7,1.6 -9,0 Q -0.7,-1.6 0,-9 Z" fill="#ffffff" opacity="0.95"/>
+      <circle r="1.3" fill="#ffffff"/>
+    </g>
+
     <!-- 逐段揭示遮罩 -->
     <mask id="reveal2">
       <rect x="0" y="0" width="0" height="120" fill="#fff">
         <animate attributeName="width" values="0;720;720;0" keyTimes="0;0.28;0.92;1" dur="4s" repeatCount="indefinite"/>
       </rect>
     </mask>
+
     <style>
       .ch { font-family: Consolas, 'Courier New', monospace; font-size: 26px; font-weight: bold; fill: url(#neon2); filter: url(#glow2); }
       .deco { font-family: Consolas, 'Courier New', monospace; font-size: 20px; fill: #565f89; }
-      .sub { font-family: Consolas, 'Courier New', monospace; font-size: 13px; fill: #565f89; opacity: 0; animation: fade 4s infinite; }
+      .sub { font-family: Consolas, 'Courier New', monospace; font-size: 13px; fill: #a9b8ff; letter-spacing: 2px; opacity: 0; animation: fade 4s infinite; }
       @keyframes fade { 0%,30% { opacity: 0; } 45%,90% { opacity: 1; } 100% { opacity: 0; } }
     </style>
   </defs>
-
+  <!-- 🌌 宇宙深空背景与星云光晕 -->
   <rect width="720" height="120" fill="url(#bg2)"/>
-
+  <rect width="720" height="120" fill="url(#nebulaViolet)"/>
+  <rect width="720" height="120" fill="url(#nebulaPink2)"/>
+  <!-- ✨ 密集微星尘海 · 110 颗 -->
+  <g fill="#c0caf5"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="3.1s" begin="0s" repeatCount="indefinite"/>
+    <circle cx="208.8" cy="62.2" r="0.69"/>
+    <circle cx="492.7" cy="99.7" r="0.7"/>
+    <circle cx="237.6" cy="108.1" r="0.4"/>
+    <circle cx="630.1" cy="73.6" r="0.42"/>
+    <circle cx="65.4" cy="82.8" r="0.75"/>
+    <circle cx="609.8" cy="108.9" r="0.73"/>
+    <circle cx="432.9" cy="80.5" r="0.69"/>
+    <circle cx="316.5" cy="53.2" r="0.79"/>
+    <circle cx="714.6" cy="19.7" r="0.49"/>
+    <circle cx="361.2" cy="86.2" r="0.64"/>
+    <circle cx="272.9" cy="30.2" r="0.65"/>
+    <circle cx="667.5" cy="114.6" r="0.44"/>
+    <circle cx="46.9" cy="17.6" r="0.45"/>
+    <circle cx="66.4" cy="80.4" r="0.67"/>
+    <circle cx="170.9" cy="66.4" r="0.61"/>
+    <circle cx="347.2" cy="8.7" r="0.41"/>
+    <circle cx="12.7" cy="64.2" r="0.42"/>
+    <circle cx="41.0" cy="114.2" r="0.69"/>
+    <circle cx="618.3" cy="18.6" r="0.51"/>
+    <circle cx="259.3" cy="29.4" r="0.43"/>
+    <circle cx="651.1" cy="74.9" r="0.62"/>
+    <circle cx="64.0" cy="100.1" r="0.72"/>
+    <circle cx="141.1" cy="103.2" r="0.46"/>
+    <circle cx="149.7" cy="28.2" r="0.59"/>
+    <circle cx="384.8" cy="82.8" r="0.76"/>
+    <circle cx="275.0" cy="11.7" r="0.77"/>
+    <circle cx="115.1" cy="106.7" r="0.53"/>
+    <circle cx="7.3" cy="39.8" r="0.47"/>
+  </g>
+  <g fill="#ffc4e0"><animate attributeName="opacity" values="0.15;0.75;0.15" dur="3.9s" begin="-1.5s" repeatCount="indefinite"/>
+    <circle cx="530.0" cy="15.9" r="0.54"/>
+    <circle cx="486.7" cy="20.2" r="0.69"/>
+    <circle cx="90.3" cy="63.8" r="0.75"/>
+    <circle cx="274.5" cy="72.2" r="0.45"/>
+    <circle cx="114.5" cy="45.4" r="0.59"/>
+    <circle cx="673.6" cy="53.5" r="0.45"/>
+    <circle cx="102.5" cy="4.1" r="0.45"/>
+    <circle cx="161.4" cy="113.0" r="0.71"/>
+    <circle cx="81.3" cy="104.5" r="0.63"/>
+    <circle cx="18.9" cy="25.1" r="0.63"/>
+    <circle cx="120.4" cy="91.3" r="0.59"/>
+    <circle cx="138.4" cy="90.2" r="0.44"/>
+    <circle cx="342.8" cy="57.2" r="0.51"/>
+    <circle cx="201.9" cy="90.1" r="0.42"/>
+    <circle cx="224.9" cy="43.3" r="0.54"/>
+    <circle cx="492.2" cy="81.0" r="0.77"/>
+    <circle cx="575.9" cy="43.9" r="0.49"/>
+    <circle cx="58.3" cy="57.4" r="0.64"/>
+    <circle cx="583.0" cy="95.9" r="0.78"/>
+    <circle cx="82.0" cy="12.8" r="0.74"/>
+    <circle cx="358.2" cy="87.7" r="0.47"/>
+    <circle cx="300.5" cy="101.5" r="0.42"/>
+    <circle cx="548.1" cy="102.8" r="0.79"/>
+    <circle cx="440.6" cy="54.8" r="0.63"/>
+    <circle cx="673.1" cy="5.2" r="0.61"/>
+    <circle cx="693.3" cy="67.4" r="0.78"/>
+    <circle cx="216.4" cy="25.1" r="0.62"/>
+    <circle cx="132.5" cy="49.0" r="0.64"/>
+  </g>
+  <g fill="#a9c6ff"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.7s" begin="-0.5s" repeatCount="indefinite"/>
+    <circle cx="338.4" cy="21.6" r="0.72"/>
+    <circle cx="166.3" cy="42.9" r="0.48"/>
+    <circle cx="462.3" cy="84.8" r="0.79"/>
+    <circle cx="606.7" cy="16.7" r="0.69"/>
+    <circle cx="229.1" cy="41.4" r="0.56"/>
+    <circle cx="572.8" cy="101.3" r="0.72"/>
+    <circle cx="671.2" cy="94.8" r="0.75"/>
+    <circle cx="179.2" cy="16.6" r="0.61"/>
+    <circle cx="423.2" cy="18.4" r="0.56"/>
+    <circle cx="618.3" cy="4.7" r="0.45"/>
+    <circle cx="376.4" cy="19.4" r="0.71"/>
+    <circle cx="643.0" cy="99.2" r="0.67"/>
+    <circle cx="561.8" cy="7.6" r="0.56"/>
+    <circle cx="212.2" cy="37.3" r="0.49"/>
+    <circle cx="369.5" cy="18.4" r="0.49"/>
+    <circle cx="357.8" cy="50.0" r="0.52"/>
+    <circle cx="570.3" cy="13.9" r="0.76"/>
+    <circle cx="209.7" cy="10.8" r="0.52"/>
+    <circle cx="574.0" cy="97.9" r="0.61"/>
+    <circle cx="92.9" cy="86.7" r="0.43"/>
+    <circle cx="122.4" cy="84.1" r="0.53"/>
+    <circle cx="155.7" cy="15.3" r="0.65"/>
+    <circle cx="552.2" cy="55.4" r="0.78"/>
+    <circle cx="468.3" cy="69.3" r="0.42"/>
+    <circle cx="380.4" cy="70.4" r="0.67"/>
+    <circle cx="249.5" cy="87.1" r="0.8"/>
+    <circle cx="68.6" cy="29.8" r="0.71"/>
+    <circle cx="314.8" cy="25.6" r="0.59"/>
+  </g>
+  <g fill="#ffffff"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.3s" begin="-2.1s" repeatCount="indefinite"/>
+    <circle cx="215.0" cy="98.7" r="0.65"/>
+    <circle cx="252.8" cy="12.4" r="0.49"/>
+    <circle cx="415.2" cy="52.9" r="0.47"/>
+    <circle cx="471.9" cy="90.4" r="0.67"/>
+    <circle cx="655.8" cy="11.3" r="0.75"/>
+    <circle cx="319.9" cy="95.3" r="0.79"/>
+    <circle cx="558.6" cy="21.5" r="0.73"/>
+    <circle cx="19.1" cy="95.0" r="0.42"/>
+    <circle cx="448.9" cy="97.9" r="0.5"/>
+    <circle cx="463.8" cy="101.2" r="0.61"/>
+    <circle cx="114.1" cy="100.0" r="0.75"/>
+    <circle cx="289.1" cy="95.5" r="0.73"/>
+    <circle cx="468.9" cy="21.6" r="0.56"/>
+    <circle cx="219.9" cy="56.1" r="0.56"/>
+    <circle cx="206.0" cy="60.0" r="0.7"/>
+    <circle cx="566.1" cy="52.4" r="0.6"/>
+    <circle cx="196.0" cy="16.0" r="0.52"/>
+    <circle cx="654.5" cy="101.4" r="0.6"/>
+    <circle cx="164.4" cy="117.3" r="0.5"/>
+    <circle cx="420.2" cy="77.4" r="0.61"/>
+    <circle cx="330.9" cy="67.4" r="0.79"/>
+    <circle cx="212.6" cy="84.0" r="0.66"/>
+    <circle cx="438.2" cy="68.8" r="0.56"/>
+    <circle cx="652.5" cy="79.3" r="0.71"/>
+    <circle cx="381.6" cy="14.9" r="0.68"/>
+    <circle cx="617.4" cy="78.0" r="0.66"/>
+    <circle cx="55.0" cy="42.0" r="0.62"/>
+    <circle cx="198.6" cy="64.0" r="0.52"/>
+  </g>
+  <!-- 🌟 主闪烁星群 · 42 颗独立呼吸 -->
+  <g>
+    <circle cx="58.8" cy="41.3" r="2.0" fill="#c0caf5"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" begin="-0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="710.5" cy="105.2" r="1.8" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.8s" begin="-2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="24.5" cy="52.6" r="1.6" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" begin="-1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="199.1" cy="57.3" r="1.0" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.4s" begin="-2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="170.6" cy="6.4" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" begin="-0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="198.5" cy="6.7" r="1.6" fill="#ffffff"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="24.9" cy="65.0" r="1.0" fill="#ffffff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" begin="-0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="476.8" cy="34.1" r="1.4" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.9s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="141.8" cy="58.6" r="1.6" fill="#bb9af7"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="-1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="702.4" cy="11.8" r="1.2" fill="#ffb7d9"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.6s" begin="-1.0s" repeatCount="indefinite"/></circle>
+    <circle cx="482.8" cy="78.5" r="1.6" fill="#ffffff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="-0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="705.6" cy="59.7" r="1.8" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="-1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="504.2" cy="85.8" r="1.4" fill="#bb9af7"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.5s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="510.7" cy="17.3" r="2.0" fill="#c0caf5"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.0s" begin="-1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="696.4" cy="5.9" r="1.0" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.0s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="94.6" cy="54.6" r="1.4" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="-2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="110.1" cy="14.7" r="1.4" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.9s" begin="-2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="665.8" cy="63.2" r="2.0" fill="#c0caf5"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" begin="-0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="594.6" cy="30.2" r="1.2" fill="#ffb7d9"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.7s" begin="-2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="306.7" cy="41.1" r="1.0" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.7s" begin="-1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="7.3" cy="71.4" r="1.8" fill="#ffb7d9"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.9s" begin="-3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="204.9" cy="109.1" r="1.2" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="26.0" cy="23.9" r="1.4" fill="#ffffff"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="419.2" cy="87.6" r="1.0" fill="#ffb7d9"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" begin="-1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="295.1" cy="97.2" r="1.6" fill="#ffb7d9"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" begin="-1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="403.7" cy="107.3" r="2.0" fill="#bb9af7"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.8s" begin="-1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="434.3" cy="96.4" r="2.0" fill="#ffb7d9"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.1s" begin="-0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="581.3" cy="72.4" r="1.4" fill="#ffffff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.2s" begin="-1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="301.3" cy="5.4" r="1.4" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.7s" begin="-1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="598.7" cy="13.2" r="1.8" fill="#bb9af7"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.5s" begin="-2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="414.2" cy="90.1" r="1.0" fill="#ffb7d9"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="388.9" cy="23.7" r="2.0" fill="#c0caf5"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.0s" begin="-2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="286.6" cy="112.7" r="1.0" fill="#bb9af7"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="-1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="701.0" cy="32.3" r="1.0" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.9s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="445.1" cy="25.2" r="1.8" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.0s" begin="-2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="39.5" cy="44.6" r="1.6" fill="#c0caf5"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.0s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="362.1" cy="32.6" r="1.2" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.2s" begin="-1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="417.4" cy="30.6" r="1.8" fill="#c0caf5"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="-2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="666.1" cy="54.2" r="2.0" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.1s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="595.2" cy="8.2" r="1.0" fill="#a9c6ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" begin="-0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="511.0" cy="79.9" r="1.6" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="-2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="664.8" cy="50.5" r="2.0" fill="#ff9ecb"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.5s" begin="-2.1s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- ✦ 璀璨芒星 · 6 颗带缩放呼吸 -->
+  <g>
+    <g transform="translate(70,30)">
+      <g><animateTransform attributeName="transform" type="scale" values="0.28;0.8;0.28" dur="2.8s" begin="-2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" begin="-2.2s" repeatCount="indefinite"/>
+        <use href="#sparkleStar2"/>
+      </g>
+    </g>
+    <g transform="translate(130,95)">
+      <g><animateTransform attributeName="transform" type="scale" values="0.26;0.75;0.26" dur="3.3s" begin="-0.9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="3.3s" begin="-0.9s" repeatCount="indefinite"/>
+        <use href="#sparkleStar2"/>
+      </g>
+    </g>
+    <g transform="translate(615,25)">
+      <g><animateTransform attributeName="transform" type="scale" values="0.28;0.8;0.28" dur="3.0s" begin="-2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="3.0s" begin="-2.5s" repeatCount="indefinite"/>
+        <use href="#sparkleStar2"/>
+      </g>
+    </g>
+    <g transform="translate(660,95)">
+      <g><animateTransform attributeName="transform" type="scale" values="0.3;0.85;0.3" dur="3.5s" begin="-1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="3.5s" begin="-1.5s" repeatCount="indefinite"/>
+        <use href="#sparkleStar2"/>
+      </g>
+    </g>
+    <g transform="translate(35,75)">
+      <g><animateTransform attributeName="transform" type="scale" values="0.24;0.7;0.24" dur="2.6s" begin="-0.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" begin="-0.3s" repeatCount="indefinite"/>
+        <use href="#sparkleStar2"/>
+      </g>
+    </g>
+    <g transform="translate(685,55)">
+      <g><animateTransform attributeName="transform" type="scale" values="0.28;0.8;0.28" dur="3.1s" begin="-1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="3.1s" begin="-1.5s" repeatCount="indefinite"/>
+        <use href="#sparkleStar2"/>
+      </g>
+    </g>
+  </g>
+  <!-- 🌸 随风斜落落樱 · 18 片真实花瓣 (自转 + 漂移) -->
+  <g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="457.5,-20; 693.8,140" dur="15.7s" begin="-0.6s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-5.5,0; 5.5,0; -5.5,0" dur="2.5s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="2.7s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.69)" fill="#ffe1ee" opacity="0.66"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="571.9,-20; 867.2,140" dur="11.3s" begin="-4.1s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-8.0,0; 8.0,0; -8.0,0" dur="2.9s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="4.7s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.59)" fill="#ff9ecb" opacity="0.67"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="552.7,-20; 838.4,140" dur="10.1s" begin="-8.2s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-8.6,0; 8.6,0; -8.6,0" dur="2.7s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="3.5s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.64)" fill="#ffb7d9" opacity="0.56"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="29.4,-20; 287.1,140" dur="10.6s" begin="-10.0s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-8.5,0; 8.5,0; -8.5,0" dur="2.5s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="3.8s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.62)" fill="#ff9ecb" opacity="0.52"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="394.0,-20; 652.7,140" dur="11.5s" begin="-2.1s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-6.5,0; 6.5,0; -6.5,0" dur="2.3s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="3.5s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.78)" fill="#ffc4e0" opacity="0.59"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="27.6,-20; 315.8,140" dur="14.9s" begin="-10.3s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-7.5,0; 7.5,0; -7.5,0" dur="3.2s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="3.3s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.8)" fill="#ffc4e0" opacity="0.49"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="688.8,-20; 896.6,140" dur="14.4s" begin="-2.6s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-6.2,0; 6.2,0; -6.2,0" dur="2.3s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="4.2s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.52)" fill="#ffb7d9" opacity="0.58"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="499.0,-20; 779.8,140" dur="9.3s" begin="-2.4s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-5.7,0; 5.7,0; -5.7,0" dur="2.5s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="3.4s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.72)" fill="#ffb7d9" opacity="0.63"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="-31.5,-20; 227.7,140" dur="10.4s" begin="-10.3s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-8.0,0; 8.0,0; -8.0,0" dur="2.7s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="4.3s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.5)" fill="#ff9ecb" opacity="0.37"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="587.3,-20; 848.9,140" dur="12.5s" begin="-0.8s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-8.8,0; 8.8,0; -8.8,0" dur="3.4s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="3.8s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.87)" fill="#ffc4e0" opacity="0.61"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="-7.5,-20; 232.5,140" dur="10.0s" begin="-4.0s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-7.2,0; 7.2,0; -7.2,0" dur="2.7s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="4.0s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.72)" fill="#ffc4e0" opacity="0.42"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="662.1,-20; 924.2,140" dur="12.3s" begin="-12.1s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-8.5,0; 8.5,0; -8.5,0" dur="2.8s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="3.1s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.72)" fill="#ffe1ee" opacity="0.61"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="400.6,-20; 577.3,140" dur="11.6s" begin="-3.7s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-7.6,0; 7.6,0; -7.6,0" dur="2.7s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="4.0s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.66)" fill="#ffc4e0" opacity="0.55"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="328.9,-20; 627.9,140" dur="14.6s" begin="-5.6s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-7.8,0; 7.8,0; -7.8,0" dur="2.9s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="2.9s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.76)" fill="#ff9ecb" opacity="0.65"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="121.2,-20; 349.7,140" dur="9.2s" begin="-0.5s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-5.6,0; 5.6,0; -5.6,0" dur="2.7s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="4.6s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.55)" fill="#ffc4e0" opacity="0.66"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="223.9,-20; 403.4,140" dur="13.1s" begin="-8.3s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-7.4,0; 7.4,0; -7.4,0" dur="2.4s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="4.5s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.65)" fill="#ffe1ee" opacity="0.47"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="606.4,-20; 901.6,140" dur="13.1s" begin="-2.7s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-8.2,0; 8.2,0; -8.2,0" dur="3.1s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; -360" dur="2.6s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.6)" fill="#ffb7d9" opacity="0.46"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="79.1,-20; 315.5,140" dur="9.2s" begin="-7.3s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="translate" values="-7.9,0; 7.9,0; -7.9,0" dur="2.5s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0; 360" dur="4.2s" repeatCount="indefinite"/>
+          <use href="#sakuraPetal2" transform="scale(0.66)" fill="#ffb7d9" opacity="0.63"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <!-- ☄️ 多频交错流星雨 (4 组错开周期) -->
+  <g filter="url(#mglow2)">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.14;0.16;0.28;0.30;0.32;1" dur="3.9s" begin="-0.6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="60,-15;60,-15;390,135;390,135;390,135;390,135;390,135" keyTimes="0;0.14;0.30;0.32;0.34;1;1" dur="3.9s" begin="-0.6s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="-85" y2="-40" stroke="url(#tailB2)" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="-38" y2="-18" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round" opacity="0.95"/>
+    <circle r="2.0" fill="#ffffff"/>
+  </g>
+  <g filter="url(#mglow2)">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.30;0.32;0.44;0.46;0.48;1" dur="4.3s" begin="-2.0s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="660,-15;660,-15;330,135;330,135;330,135;330,135;330,135" keyTimes="0;0.30;0.46;0.48;0.50;1;1" dur="4.3s" begin="-2.0s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="80" y2="-38" stroke="url(#tailP2)" stroke-width="2.3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="35" y2="-17" stroke="#ffffff" stroke-width="1.0" stroke-linecap="round" opacity="0.95"/>
+    <circle r="1.9" fill="#fff5fa"/>
+  </g>
+  <g filter="url(#mglow2)">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.54;0.56;0.68;0.70;0.72;1" dur="4.8s" begin="-3.1s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="190,-15;190,-15;520,135;520,135;520,135;520,135;520,135" keyTimes="0;0.54;0.70;0.72;0.74;1;1" dur="4.8s" begin="-3.1s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="-85" y2="-40" stroke="url(#tailGold2)" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="-38" y2="-18" stroke="#ffffff" stroke-width="1.0" stroke-linecap="round" opacity="0.95"/>
+    <circle r="1.9" fill="#ffffff"/>
+  </g>
+  <g filter="url(#mglow2)">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.76;0.78;0.90;0.92;0.94;1" dur="5.4s" begin="-1.3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="510,-15;510,-15;180,135;180,135;180,135;180,135;180,135" keyTimes="0;0.76;0.92;0.94;0.96;1;1" dur="5.4s" begin="-1.3s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="80" y2="-38" stroke="url(#tailB2)" stroke-width="2.1" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="35" y2="-17" stroke="#ffffff" stroke-width="1.0" stroke-linecap="round" opacity="0.95"/>
+    <circle r="1.8" fill="#ffffff"/>
+  </g>
   <!-- 扫描线 -->
-  <rect x="0" y="0" width="720" height="2" fill="#ff69b4" opacity="0.15">
+  <rect x="0" y="0" width="720" height="2" fill="#ff69b4" opacity="0.18">
     <animate attributeName="y" values="0;118;0" dur="4s" repeatCount="indefinite"/>
   </rect>
-
-  <!-- ☄️ 流星 · 蓝白 -->
-  <g filter="url(#mglow2)">
-    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.15;0.165;0.21;0.225;0.23;1" dur="7s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="90,-10;90,-10;440,150;440,150;440,150;440,150;440,150" keyTimes="0;0.15;0.225;0.23;0.24;1;1" dur="7s" repeatCount="indefinite"/>
-    <line x1="0" y1="0" x2="-95" y2="-33" stroke="url(#tailB2)" stroke-width="2.4" stroke-linecap="round"/>
-    <line x1="0" y1="0" x2="-40" y2="-14" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.9"/>
-    <circle r="2" fill="#ffffff"/>
-  </g>
-
-  <!-- ☄️ 流星 · 粉 -->
-  <g filter="url(#mglow2)">
-    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.6;0.615;0.66;0.675;0.68;1" dur="7s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="630,-10;630,-10;300,155;300,155;300,155;300,155;300,155" keyTimes="0;0.6;0.675;0.68;0.69;1;1" dur="7s" repeatCount="indefinite"/>
-    <line x1="0" y1="0" x2="88" y2="-31" stroke="url(#tailP2)" stroke-width="2.2" stroke-linecap="round"/>
-    <line x1="0" y1="0" x2="36" y2="-13" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.9"/>
-    <circle r="1.8" fill="#fff5fa"/>
-  </g>
 
   <!-- 标题行:装饰条 + MISSION COMPLETE 整体居中,遮罩逐段点亮 -->
   <g mask="url(#reveal2)">
@@ -89,28 +493,4 @@
 
   <!-- 副标题:与主标题同一中轴 -->
   <text class="sub" x="360" y="86" text-anchor="middle">✦ ･ﾟ✧ 感謝观看,记得点个 Star 再走呀 ✧ﾟ･ ✦</text>
-
-  <!-- 两侧闪烁星 -->
-  <g fill="#c0caf5">
-    <circle cx="60" cy="40" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></circle>
-    <circle cx="660" cy="80" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
-    <circle cx="40" cy="90" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/></circle>
-    <circle cx="680" cy="30" r="1.5"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
-    <circle cx="100" cy="105" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="620" cy="18" r="1.3"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" repeatCount="indefinite"/></circle>
-    <circle cx="25" cy="20" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="695" cy="100" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="1.9s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- ✦ 十字光芒亮星 -->
-  <g stroke="#a9c6ff" stroke-width="1">
-    <g transform="translate(120,25)" opacity="0.8">
-      <line x1="-6" y1="0" x2="6" y2="0"/><line x1="0" y1="-6" x2="0" y2="6"/>
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/>
-    </g>
-    <g transform="translate(600,95)" opacity="0.8">
-      <line x1="-5" y1="0" x2="5" y2="0"/><line x1="0" y1="-5" x2="0" y2="5"/>
-      <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
-    </g>
-  </g>
 </svg>
